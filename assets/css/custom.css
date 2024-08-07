@@ -1,0 +1,62 @@
+body{
+    font-family: 'Fauna One', serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cinzel', serif;
+}
+
+nav{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav>ul>li>a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover{
+    color: aquamarine;
+}
+.logo{
+    padding: 15px;
+}
+
+.navigationBar{
+    /* margin-bottom: 10px; */
+    background-color: #111;
+    color: #fcfcfc;
+}
+
+.bannerImage{
+    background-image: url('../images/l8.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerContent{
+    padding-top: 200px;
+    padding-bottom: 250px;
+    text-align: center;
+    color: #fff;
+  
+}
+
+.bannerContent h2{
+    font-size: 50px;
+}
